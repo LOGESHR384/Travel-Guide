@@ -61,9 +61,9 @@ class Home extends Component {
     return (
       <div className="app-container">
         <h1 className="travel-heading">Travel Guide</h1>
-        <hr className="horizontal-Line" />
+        <hr className="horizontal-line" />
         <div className="locations-container">
-          {isLoading ? this.renderLoader() : this.renderLoactionsList()}
+          {isLoading ? this.renderLoader() : this.renderLocationsList()}
         </div>
       </div>
     )
