@@ -14,7 +14,7 @@ const LocationContainer = props => {
   return (
     <li className="list-location">
       <LocationCardContainer>
-        <img src={imageUrl} alt="name" className="image" />
+        <img src={imageUrl} alt={name} className="image" />
         <HeadingDescriptionContainer>
           <Heading>{name}</Heading>
           <Paragraph>{description}</Paragraph>
